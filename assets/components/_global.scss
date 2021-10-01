@@ -1,0 +1,52 @@
+//Vars
+$bg-calc: #9C859A;
+$buttons: #463d3d;
+$bg-gradient: linear-gradient(180deg, #9C859A 0%, rgba(151, 145, 186, 0.79) 100%) fixed;
+$res-calc: #9791BA;
+
+//Global Styles
+
+html {
+  font-size: 62.5%;
+  background: $bg-gradient;
+
+}
+
+body {
+  //background: $bg-gradient no-repeat;
+  background-size: cover;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+@for $i from 1 to 6 {
+  .mt-#{$i} {
+    margin-top: #{$i}rem;
+  }
+}
+
+
+.no-selectable {
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300;1,700&display=swap');
+
+

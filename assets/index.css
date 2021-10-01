@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300;1,700&display=swap");
+html {
+  font-size: 62.5%;
+  background: linear-gradient(180deg, #9C859A 0%, rgba(151, 145, 186, 0.79) 100%) fixed;
+}
+
+body {
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.no-selectable {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  width: 100%;
+}
+body h1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  align-items: center;
+  color: #FFFFFF;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+body main {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  min-height: 250px;
+}
+body main .calculator {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 6fr 0.5fr;
+  width: 300px;
+  height: 450px;
+  background-color: #9C859A;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  grid-gap: 15px;
+}
+body main .calculator .buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  place-items: center;
+  grid-gap: 15px;
+}
+body main .calculator .result {
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 1.8rem;
+  background-color: #9791BA;
+  border-bottom: 2px solid #463d3d;
+}
+body main .calculator .result p {
+  width: 80%;
+  height: 60%;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  letter-spacing: 3px;
+  overflow-x: scroll;
+  color: white;
+  font-weight: 700;
+  display: grid;
+  align-items: center;
+}
+
+.btn {
+  background-color: #463d3d;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  font-size: 2.4rem;
+  border-radius: 50%;
+  color: white;
+  border: solid 3px #9791BA;
+  transition: 0.2s ease-in-out transform;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.btn:hover {
+  transform: translateY(-4px) scale(1.1);
+  cursor: pointer;
+}
+.btn:active {
+  color: #9791BA;
+}
+
+/*# sourceMappingURL=index.css.map */

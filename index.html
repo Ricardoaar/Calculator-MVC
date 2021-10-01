@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Calculator MVC</title>
+    <link rel="stylesheet" href="assets/index.css">
+
+</head>
+<body>
+<header>
+    <h1>Calculator</h1>
+</header>
+<main>
+    <div class="calculator">
+        <div class="result no-selectable">
+            <p id="display"></p>
+        </div>
+        <div class="buttons">
+            <button class="btn number no-selectable">1</button>
+            <button class="btn number no-selectable">2</button>
+            <button class="btn number no-selectable">3</button>
+            <button class="btn number no-selectable">4</button>
+            <button class="btn number no-selectable">5</button>
+            <button class="btn number no-selectable">6</button>
+            <button class="btn number no-selectable">7</button>
+            <button class="btn number no-selectable">8</button>
+            <button class="btn number no-selectable">9</button>
+            <button class="btn no-selectable" id="subtract">-</button>
+            <button class="btn no-selectable number">0</button>
+            <button class="btn no-selectable" id="plus">+</button>
+            <button class="btn no-selectable" id="multiply">x</button>
+            <button class="btn no-selectable" id="divide">/</button>
+            <button class="btn no-selectable" id="calculate">=</button>
+        </div>
+
+    </div>
+    <div class="restart mt-1">
+        <button class="btn" id="restart">C</button>
+    </div>
+    <script src="app/index.mjs" type="module"></script>
+</main>
+
+</body>
+</html>
